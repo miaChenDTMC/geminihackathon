@@ -2245,7 +2245,7 @@ Already covered in AI Ethics Assessment. Primary need: **Add confidence indicato
 **Action**:
 ```python
 # Remove line 41:
-# GEMINI_API_KEY = "AIzaSyCTWJnEwGsG-tWvM1-xzV3s8YMXtjlvY_A"
+# GEMINI_API_KEY = ""
 
 # Replace with:
 import os
