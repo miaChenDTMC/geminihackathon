@@ -1,5 +1,10 @@
 import pandas as pd
 import os
+import sys
+
+# Add src to path so we can import data_governance
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'src')))
+
 from data_governance.quality import check_quality
 from data_governance.bias import detect_bias
 from data_governance.privacy import scan_dataframe_for_pii, anonymize_text

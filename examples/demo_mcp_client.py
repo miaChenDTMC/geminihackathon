@@ -6,8 +6,8 @@ from mcp.client.stdio import stdio_client
 
 # Get the absolute path to the python executable and the server script
 PYTHON_EXE = sys.executable
-SERVER_SCRIPT = os.path.abspath(os.path.join("src", "data_governance", "server.py"))
-TEST_DATA_CSV = os.path.abspath("test_data.csv")
+SERVER_SCRIPT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "src", "data_governance", "server.py"))
+TEST_DATA_CSV = os.path.abspath(os.path.join(os.path.dirname(__file__), "test_data.csv"))
 
 async def run_client():
     # Define server parameters

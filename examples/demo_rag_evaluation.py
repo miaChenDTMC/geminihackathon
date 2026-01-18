@@ -12,9 +12,9 @@ sys.path.append(os.path.join(os.path.dirname(__file__), "repos"))
 from simple_rag.rag import RAGPipeline
 
 # Configuration
-RAG_DATA_PATH = os.path.join("repos", "simple_rag", "data.txt")
-OUTPUT_CSV = os.path.abspath("rag_evaluation.csv")
-SERVER_SCRIPT = os.path.abspath(os.path.join("src", "data_governance", "server.py"))
+RAG_DATA_PATH = os.path.join(os.path.dirname(__file__), "repos", "simple_rag", "data.txt")
+OUTPUT_CSV = os.path.abspath(os.path.join(os.path.dirname(__file__), "rag_evaluation.csv"))
+SERVER_SCRIPT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "src", "data_governance", "server.py"))
 PYTHON_EXE = sys.executable
 
 def run_rag_evaluation():
