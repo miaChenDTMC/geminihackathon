@@ -1,0 +1,1653 @@
+# FACT-CHECK BATCH RESULTS
+**Total Articles Processed:** 113
+**Date:** 2026-01-11 13:09:52
+
+---
+
+## Article_001.txt
+
+**Article Content Preview:**
+```
+Article 1
+
+Subject matter`
+
+1.   The purpose of this Regulation is to improve the functioning of the internal market and promote the uptake of human-centric and trustworthy artificial intelligence (AI), while ensuring a high level of protection of health, safety, fundamental rights enshrined in the ...
+```
+
+**Fact Check Results:**
+ℹ️ No existing fact-checks found for this content
+
+---
+
+## Article_002.txt
+
+**Article Content Preview:**
+```
+Article 2(1), points (a) and (b) thereof, where it concerns unmanned aircraft and their engines, propellers, parts and equipment to control them remotely, are concerned.
+
+ANNEX II
+
+List of criminal offences referred to in...
+```
+
+**Fact Check Results:**
+ℹ️ No existing fact-checks found for this content
+
+---
+
+## Article_003.txt
+
+**Article Content Preview:**
+```
+Article 3(4) of Directive (EU) 2016/680 in the course of the detection, investigation or prosecution of criminal offences.
+
+7.
+
+Migration, asylum and border control management, in so far as their use is permitted under relevant Union or national law:
+
+(a)
+
+AI systems intended to be used by or on beh...
+```
+
+**Fact Check Results:**
+ℹ️ No existing fact-checks found for this content
+
+---
+
+## Article_004.txt
+
+**Article Content Preview:**
+```
+Article 4(3) of Regulation (EC) No 300/2008, the following subparagraph is added:
+
+‘When adopting detailed measures related to technical specifications and procedures for approval and use of security equipment concerning Artificial Intelligence systems within the meaning of Regulation (EU) 2024/1689...
+```
+
+**Fact Check Results:**
+ℹ️ No existing fact-checks found for this content
+
+---
+
+## Article_005.txt
+
+**Article Content Preview:**
+```
+Article 5(1), first subparagraph, point (h)(iii):
+
+—
+
+terrorism,
+
+—
+
+trafficking in human beings,
+
+—
+
+sexual exploitation of children, and child pornography,
+
+—
+
+illicit trafficking in narcotic drugs or psychotropic substances,
+
+—
+
+illicit trafficking in weapons, munitions or explosives,
+
+—
+
+murder,...
+```
+
+**Fact Check Results:**
+ℹ️ No existing fact-checks found for this content
+
+---
+
+## Article_006.txt
+
+**Article Content Preview:**
+```
+Article 6(3);
+
+8.
+
+The status of the AI system (on the market, or in service; no longer placed on the market/in service, recalled);
+
+9.
+
+Any Member States in which the AI system has been placed on the market, put into service or made available in the Union.
+
+Section C — Information to be submitted b...
+```
+
+**Fact Check Results:**
+ℹ️ No existing fact-checks found for this content
+
+---
+
+## Article_007.txt
+
+**Article Content Preview:**
+```
+Article 7, and on the potential need for possible revision of Article 5 pursuant to Article 112, taking into account relevant available evidence and the latest developments in technology;
+
+(f)
+
+support the Commission in promoting AI literacy, public awareness and understanding of the benefits, risks...
+```
+
+**Fact Check Results:**
+ℹ️ No existing fact-checks found for this content
+
+---
+
+## Article_008.txt
+
+**Article Content Preview:**
+```
+Article 8 of Directive 2014/90/EU, the following paragraph is added:
+
+‘5.   For Artificial Intelligence systems which are safety components within the meaning of Regulation (EU) 2024/1689 of the European Parliament and of the Council
+ (
+*
+)
+, when carrying out its activities pursuant to paragraph 1 ...
+```
+
+**Fact Check Results:**
+ℹ️ No existing fact-checks found for this content
+
+---
+
+## Article_009.txt
+
+**Article Content Preview:**
+```
+Article 9;
+
+6.
+
+A description of relevant changes made by the provider to the system through its lifecycle;
+
+7.
+
+A list of the harmonised standards applied in full or in part the references of which have been published in the 
+Official Journal of the European Union
+; where no such harmonised standar...
+```
+
+**Fact Check Results:**
+ℹ️ No existing fact-checks found for this content
+
+---
+
+## Article_010.txt
+
+**Article Content Preview:**
+```
+Article 10(4).
+
+2.   High-risk AI systems that have been certified or for which a statement of conformity has been issued under a cybersecurity scheme pursuant to Regulation (EU) 2019/881 and the references of which have been published in the 
+Official Journal of the European Union
+ shall be presume...
+```
+
+**Fact Check Results:**
+ℹ️ No existing fact-checks found for this content
+
+---
+
+## Article_011.txt
+
+**Article Content Preview:**
+```
+Article 11(1) shall contain at least the following information, as applicable to the relevant AI system:
+
+1.
+
+A general description of the AI system including:
+
+(a)
+
+its intended purpose, the name of the provider and the version of the system reflecting its relation to previous versions;
+
+(b)
+
+how t...
+```
+
+**Fact Check Results:**
+ℹ️ No existing fact-checks found for this content
+
+---
+
+## Article_012.txt
+
+**Article Content Preview:**
+```
+Article 12(1), automatically generated by the high-risk AI system, to the extent such logs are under the control of the provider;
+
+(d)
+
+cooperate with competent authorities, upon a reasoned request, in any action the latter take in relation to the high-risk AI system, in particular to reduce and mit...
+```
+
+**Fact Check Results:**
+ℹ️ No existing fact-checks found for this content
+
+---
+
+## Article_013.txt
+
+**Article Content Preview:**
+```
+Article 13; the provider or prospective provider and the deployer or prospective deployer shall conclude an agreement specifying their roles and responsibilities with a view to ensuring compliance with the provisions for testing in real world conditions under this Regulation and under other applicab...
+```
+
+**Fact Check Results:**
+ℹ️ No existing fact-checks found for this content
+
+---
+
+## Article_014.txt
+
+**Article Content Preview:**
+```
+Article 14, including the technical measures put in place to facilitate the interpretation of the outputs of AI systems by the deployers; specifications on input data, as appropriate;
+
+4.
+
+A description of the appropriateness of the performance metrics for the specific AI system;
+
+5.
+
+A detailed des...
+```
+
+**Fact Check Results:**
+ℹ️ No existing fact-checks found for this content
+
+---
+
+## Article_015.txt
+
+**Article Content Preview:**
+```
+Article 15 of this Regulation in so far as the cybersecurity certificate or statement of conformity or parts thereof cover those requirements....
+```
+
+**Fact Check Results:**
+ℹ️ No existing fact-checks found for this content
+
+---
+
+## Article_017.txt
+
+**Article Content Preview:**
+```
+Article 17.
+
+The decision shall be notified to the provider or its authorised representative.
+
+The notification shall contain the conclusions of the assessment of the quality management system and the reasoned assessment decision.
+
+3.3.
+
+The quality management system as approved shall continue to be...
+```
+
+**Fact Check Results:**
+ℹ️ No existing fact-checks found for this content
+
+---
+
+## Article_018.txt
+
+**Article Content Preview:**
+```
+Article 18 of Regulation (EU) 2019/1020 shall apply 
+mutatis mutandis
+ to the providers of the general-purpose AI model, without prejudice to more specific procedural rights provided for in this Regulation....
+```
+
+**Fact Check Results:**
+ℹ️ No existing fact-checks found for this content
+
+---
+
+## Article_019.txt
+
+**Article Content Preview:**
+```
+Article 19, the following paragraph is added:
+
+‘4.   When adopting delegated acts pursuant to paragraphs 1 and 2 concerning Artificial Intelligence systems which are safety components within the meaning of Regulation (EU) 2024/1689, the requirements set out in Chapter III, Section 2, of that Regulat...
+```
+
+**Fact Check Results:**
+ℹ️ No existing fact-checks found for this content
+
+---
+
+## Article_021.txt
+
+**Article Content Preview:**
+```
+Article 21(6) of Regulation (EU) 2019/1020 in the area of AI.
+
+2.   Without prejudice to the tasks referred to in paragraph 1, Union AI testing support structures shall also provide independent technical or scientific advice at the request of the Board, the Commission, or of market surveillance auth...
+```
+
+**Fact Check Results:**
+ℹ️ No existing fact-checks found for this content
+
+---
+
+## Article_022.txt
+
+**Article Content Preview:**
+```
+Article 22(5) of Regulation (EU) No 168/2013, the following subparagraph is added:
+
+‘When adopting delegated acts pursuant to the first subparagraph concerning Artificial Intelligence systems which are safety components within the meaning of Regulation (EU) 2024/1689 of the European Parliament and o...
+```
+
+**Fact Check Results:**
+ℹ️ No existing fact-checks found for this content
+
+---
+
+## Article_028.txt
+
+**Article Content Preview:**
+```
+Article 28 to allow that authority to conduct its assessment, designation, notification and monitoring activities, and to facilitate the assessment outlined in this Section....
+```
+
+**Fact Check Results:**
+ℹ️ No existing fact-checks found for this content
+
+---
+
+## Article_029.txt
+
+**Article Content Preview:**
+```
+Article 29(2), or within two months of a notification by the notifying authority where it includes documentary evidence referred to in Article 29(3).
+
+5.   Where objections are raised, the Commission shall, without delay, enter into consultations with the relevant Member States and the conformity as...
+```
+
+**Fact Check Results:**
+ℹ️ No existing fact-checks found for this content
+
+---
+
+## Article_030.txt
+
+**Article Content Preview:**
+```
+Article 30 of Regulation (EU) 2019/1020.
+
+The Board may establish other standing or temporary sub-groups as appropriate for the purpose of examining specific issues. Where appropriate, representatives of the advisory forum referred to in...
+```
+
+**Fact Check Results:**
+ℹ️ No existing fact-checks found for this content
+
+---
+
+## Article_031.txt
+
+**Article Content Preview:**
+```
+Article 31, Article 33(1), (3) and (4) or Article 34;
+
+(g)
+
+transparency obligations for providers and deployers pursuant to...
+```
+
+**Fact Check Results:**
+ℹ️ No existing fact-checks found for this content
+
+---
+
+## Article_032.txt
+
+**Article Content Preview:**
+```
+Article 32
+
+Presumption of conformity with requirements relating to notified bodies
+
+Where a conformity assessment body demonstrates its conformity with the criteria laid down in the relevant harmonised standards or parts thereof, the references of which have been published in the 
+Official Journal ...
+```
+
+**Fact Check Results:**
+ℹ️ No existing fact-checks found for this content
+
+---
+
+## Article_033.txt
+
+**Article Content Preview:**
+```
+Article 33
+
+Subsidiaries of notified bodies and subcontracting
+
+1.   Where a notified body subcontracts specific tasks connected with the conformity assessment or has recourse to a subsidiary, it shall ensure that the subcontractor or the subsidiary meets the requirements laid down in...
+```
+
+**Fact Check Results:**
+ℹ️ No existing fact-checks found for this content
+
+---
+
+## Article_034.txt
+
+**Article Content Preview:**
+```
+Article 34(4) of Regulation (EU) 2019/1020, the market surveillance authorities shall report annually to the Commission and relevant national competition authorities any information identified in the course of market surveillance activities that may be of potential interest for the application of Un...
+```
+
+**Fact Check Results:**
+ℹ️ No existing fact-checks found for this content
+
+---
+
+## Article_035.txt
+
+**Article Content Preview:**
+```
+Article 35 of Regulation (EU) 2016/679 or Article 27 of Directive (EU) 2016/680 as specified in Article 26(8) of this Regulation, where applicable.
+
+ANNEX IX
+
+Information to be submitted upon the registration of high-risk AI systems listed in Annex III in relation to testing in real world conditions...
+```
+
+**Fact Check Results:**
+ℹ️ No existing fact-checks found for this content
+
+---
+
+## Article_036.txt
+
+**Article Content Preview:**
+```
+Article 36
+
+Changes to notifications
+
+1.   The notifying authority shall notify the Commission and the other Member States of any relevant changes to the notification of a notified body via the electronic notification tool referred to in...
+```
+
+**Fact Check Results:**
+ℹ️ No existing fact-checks found for this content
+
+---
+
+## Article_037.txt
+
+**Article Content Preview:**
+```
+Article 37
+
+Challenge to the competence of notified bodies
+
+1.   The Commission shall, where necessary, investigate all cases where there are reasons to doubt the competence of a notified body or the continued fulfilment by a notified body of the requirements laid down in...
+```
+
+**Fact Check Results:**
+ℹ️ No existing fact-checks found for this content
+
+---
+
+## Article_038.txt
+
+**Article Content Preview:**
+```
+Article 38
+
+Coordination of notified bodies
+
+1.   The Commission shall ensure that, with regard to high-risk AI systems, appropriate coordination and cooperation between notified bodies active in the conformity assessment procedures pursuant to this Regulation are put in place and properly operated ...
+```
+
+**Fact Check Results:**
+ℹ️ No existing fact-checks found for this content
+
+---
+
+## Article_039.txt
+
+**Article Content Preview:**
+```
+Article 39
+
+Conformity assessment bodies of third countries
+
+Conformity assessment bodies established under the law of a third country with which the Union has concluded an agreement may be authorised to carry out the activities of notified bodies under this Regulation, provided that they meet the r...
+```
+
+**Fact Check Results:**
+ℹ️ No existing fact-checks found for this content
+
+---
+
+## Article_040.txt
+
+**Article Content Preview:**
+```
+Article 40 do not exist, and common specifications referred to in Article 41 are not available;
+
+(b)
+
+the provider has not applied, or has applied only part of, the harmonised standard;
+
+(c)
+
+the common specifications referred to in point (a) exist, but the provider has not applied them;
+
+(d)
+
+one o...
+```
+
+**Fact Check Results:**
+ℹ️ No existing fact-checks found for this content
+
+---
+
+## Article_041.txt
+
+**Article Content Preview:**
+```
+Article 41, covering all requirements set out in Section 2 of this Chapter.
+
+4.   High-risk AI systems that have already been subject to a conformity assessment procedure shall undergo a new conformity assessment procedure in the event of a substantial modification, regardless of whether the modifie...
+```
+
+**Fact Check Results:**
+ℹ️ No existing fact-checks found for this content
+
+---
+
+## Article_042.txt
+
+**Article Content Preview:**
+```
+Article 42
+
+Presumption of conformity with certain requirements
+
+1.   High-risk AI systems that have been trained and tested on data reflecting the specific geographical, behavioural, contextual or functional setting within which they are intended to be used shall be presumed to comply with the rele...
+```
+
+**Fact Check Results:**
+ℹ️ No existing fact-checks found for this content
+
+---
+
+## Article_043.txt
+
+**Article Content Preview:**
+```
+Article 43(4) or whether they could be addressed by means of a supplement to the Union technical documentation assessment certificate. In the latter case, the notified body shall assess the changes, notify the provider of its decision and, where the changes are approved, issue to the provider a supp...
+```
+
+**Fact Check Results:**
+ℹ️ No existing fact-checks found for this content
+
+---
+
+## Article_044.txt
+
+**Article Content Preview:**
+```
+Article 44
+
+Certificates
+
+1.   Certificates issued by notified bodies in accordance with Annex VII shall be drawn-up in a language which can be easily understood by the relevant authorities in the Member State in which the notified body is established.
+
+2.   Certificates shall be valid for the perio...
+```
+
+**Fact Check Results:**
+ℹ️ No existing fact-checks found for this content
+
+---
+
+## Article_045.txt
+
+**Article Content Preview:**
+```
+Article 45
+
+Information obligations of notified bodies
+
+1.   Notified bodies shall inform the notifying authority of the following:
+
+(a)
+
+any Union technical documentation assessment certificates, any supplements to those certificates, and any quality management system approvals issued in accordance...
+```
+
+**Fact Check Results:**
+ℹ️ No existing fact-checks found for this content
+
+---
+
+## Article_046.txt
+
+**Article Content Preview:**
+```
+Article 46, the functioning of AI regulatory sandboxes, and testing in real world conditions referred to in Articles 57, 59 and 60;
+
+(e)
+
+at the request of the Commission or on its own initiative, issue recommendations and written opinions on any relevant matters related to the implementation of thi...
+```
+
+**Fact Check Results:**
+ℹ️ No existing fact-checks found for this content
+
+---
+
+## Article_047.txt
+
+**Article Content Preview:**
+```
+Article 47;
+
+12.
+
+Electronic instructions for use; this information shall not be provided for high-risk AI systems in the areas of law enforcement or migration, asylum and border control management referred to in Annex III, points 1, 6 and 7;
+
+13.
+
+A URL for additional information (optional).
+
+Secti...
+```
+
+**Fact Check Results:**
+ℹ️ No existing fact-checks found for this content
+
+---
+
+## Article_048.txt
+
+**Article Content Preview:**
+```
+Article 48;
+
+(b)
+
+the CE marking has not been affixed;
+
+(c)
+
+the EU declaration of conformity referred to in...
+```
+
+**Fact Check Results:**
+ℹ️ No existing fact-checks found for this content
+
+---
+
+## Article_049.txt
+
+**Article Content Preview:**
+```
+Article 49(3):
+
+1.
+
+The name, address and contact details of the deployer;
+
+2.
+
+The name, address and contact details of the person submitting information on behalf of the deployer;
+
+3.
+
+The URL of the entry of the AI system in the EU database by its provider;
+
+4.
+
+A summary of the findings of the f...
+```
+
+**Fact Check Results:**
+ℹ️ No existing fact-checks found for this content
+
+---
+
+## Article_050.txt
+
+**Article Content Preview:**
+```
+Article 50.
+
+12.   Any amendment to this Regulation pursuant to paragraph 10, or relevant delegated or implementing acts, which concerns sectoral Union harmonisation legislation listed in Section B of Annex I shall take into account the regulatory specificities of each sector, and the existing gover...
+```
+
+**Fact Check Results:**
+ℹ️ No existing fact-checks found for this content
+
+---
+
+## Article_051.txt
+
+**Article Content Preview:**
+```
+Article 51(1), point (a), the Commission shall take into account the following criteria:
+
+(a)
+
+the number of parameters of the model;
+
+(b)
+
+the quality or size of the data set, for example measured through tokens;
+
+(c)
+
+the amount of computation used for training the model, measured in floating poin...
+```
+
+**Fact Check Results:**
+ℹ️ No existing fact-checks found for this content
+
+---
+
+## Article_053.txt
+
+**Article Content Preview:**
+```
+Article 53(1), point (b) shall contain at least the following:
+
+1.
+
+A general description of the general-purpose AI model including:
+
+(a)
+
+the tasks that the model is intended to perform and the type and nature of AI systems into which it can be integrated;
+
+(b)
+
+the acceptable use policies applicab...
+```
+
+**Fact Check Results:**
+ℹ️ No existing fact-checks found for this content
+
+---
+
+## Article_054.txt
+
+**Article Content Preview:**
+```
+Article 54
+
+Authorised representatives of providers of general-purpose AI models
+
+1.   Prior to placing a general-purpose AI model on the Union market, providers established in third countries shall, by written mandate, appoint an authorised representative which is established in the Union.
+
+2.   Th...
+```
+
+**Fact Check Results:**
+ℹ️ No existing fact-checks found for this content
+
+---
+
+## Article_055.txt
+
+**Article Content Preview:**
+```
+Article 55
+
+Obligations of providers of general-purpose AI models with systemic risk
+
+1.   In addition to the obligations listed in Articles 53 and 54, providers of general-purpose AI models with systemic risk shall:
+
+(a)
+
+perform model evaluation in accordance with standardised protocols and tools ...
+```
+
+**Fact Check Results:**
+ℹ️ No existing fact-checks found for this content
+
+---
+
+## Article_056.txt
+
+**Article Content Preview:**
+```
+Article 56
+
+Codes of practice
+
+1.   The AI Office shall encourage and facilitate the drawing up of codes of practice at Union level in order to contribute to the proper application of this Regulation, taking into account international approaches.
+
+2.   The AI Office and the Board shall aim to ensure...
+```
+
+**Fact Check Results:**
+ℹ️ No existing fact-checks found for this content
+
+---
+
+## Article_057.txt
+
+**Article Content Preview:**
+```
+Article 57, the following subparagraph is added:
+
+‘When adopting those implementing acts concerning Artificial Intelligence systems which are safety components within the meaning of Regulation (EU) 2024/1689, the requirements set out in Chapter III, Section 2, of that Regulation shall be taken into ...
+```
+
+**Fact Check Results:**
+ℹ️ No existing fact-checks found for this content
+
+---
+
+## Article_059.txt
+
+**Article Content Preview:**
+```
+Article 59
+
+Further processing of personal data for developing certain AI systems in the public interest in the AI regulatory sandbox
+
+1.   In the AI regulatory sandbox, personal data lawfully collected for other purposes may be processed solely for the purpose of developing, training and testing ce...
+```
+
+**Fact Check Results:**
+ℹ️ No existing fact-checks found for this content
+
+---
+
+## Article_060.txt
+
+**Article Content Preview:**
+```
+Article 60:
+
+1.
+
+A Union-wide unique single identification number of the testing in real world conditions;
+
+2.
+
+The name and contact details of the provider or prospective provider and of the deployers involved in the testing in real world conditions;
+
+3.
+
+A brief description of the AI system, its i...
+```
+
+**Fact Check Results:**
+ℹ️ No existing fact-checks found for this content
+
+---
+
+## Article_061.txt
+
+**Article Content Preview:**
+```
+Article 61
+
+Informed consent to participate in testing in real world conditions outside AI regulatory sandboxes
+
+1.   For the purpose of testing in real world conditions under...
+```
+
+**Fact Check Results:**
+ℹ️ No existing fact-checks found for this content
+
+---
+
+## Article_062.txt
+
+**Article Content Preview:**
+```
+Article 62
+
+Measures for providers and deployers, in particular SMEs, including start-ups
+
+1.   Member States shall undertake the following actions:
+
+(a)
+
+provide SMEs, including start-ups, having a registered office or a branch in the Union, with priority access to the AI regulatory sandboxes, to t...
+```
+
+**Fact Check Results:**
+ℹ️ No existing fact-checks found for this content
+
+---
+
+## Article_063.txt
+
+**Article Content Preview:**
+```
+Article 63
+
+Derogations for specific operators
+
+1.   Microenterprises within the meaning of Recommendation 2003/361/EC may comply with certain elements of the quality management system required by...
+```
+
+**Fact Check Results:**
+ℹ️ No existing fact-checks found for this content
+
+---
+
+## Article_064.txt
+
+**Article Content Preview:**
+```
+Article 64
+
+AI Office
+
+1.   The Commission shall develop Union expertise and capabilities in the field of AI through the AI Office.
+
+2.   Member States shall facilitate the tasks entrusted to the AI Office, as reflected in this Regulation....
+```
+
+**Fact Check Results:**
+ℹ️ No existing fact-checks found for this content
+
+---
+
+## Article_065.txt
+
+**Article Content Preview:**
+```
+Article 65
+
+Establishment and structure of the European Artificial Intelligence Board
+
+1.   A European Artificial Intelligence Board (the ‘Board’) is hereby established.
+
+2.   The Board shall be composed of one representative per Member State. The European Data Protection Supervisor shall participat...
+```
+
+**Fact Check Results:**
+ℹ️ No existing fact-checks found for this content
+
+---
+
+## Article_066.txt
+
+**Article Content Preview:**
+```
+Article 66
+
+Tasks of the Board
+
+The Board shall advise and assist the Commission and the Member States in order to facilitate the consistent and effective application of this Regulation. To that end, the Board may in particular:
+
+(a)
+
+contribute to the coordination among national competent authoriti...
+```
+
+**Fact Check Results:**
+ℹ️ No existing fact-checks found for this content
+
+---
+
+## Article_067.txt
+
+**Article Content Preview:**
+```
+Article 67
+
+Advisory forum
+
+1.   An advisory forum shall be established to provide technical expertise and advise the Board and the Commission, and to contribute to their tasks under this Regulation.
+
+2.   The membership of the advisory forum shall represent a balanced selection of stakeholders, inc...
+```
+
+**Fact Check Results:**
+ℹ️ No existing fact-checks found for this content
+
+---
+
+## Article_068.txt
+
+**Article Content Preview:**
+```
+Article 68. Independent experts appointed for this task shall meet the criteria outlined in Article 68(2).
+
+3.   For the purposes of paragraph 1, the Commission may request access to the general-purpose AI model concerned through APIs or further appropriate technical means and tools, including sourc...
+```
+
+**Fact Check Results:**
+ℹ️ No existing fact-checks found for this content
+
+---
+
+## Article_069.txt
+
+**Article Content Preview:**
+```
+Article 69
+
+Access to the pool of experts by the Member States
+
+1.   Member States may call upon experts of the scientific panel to support their enforcement activities under this Regulation.
+
+2.   The Member States may be required to pay fees for the advice and support provided by the experts. The ...
+```
+
+**Fact Check Results:**
+ℹ️ No existing fact-checks found for this content
+
+---
+
+## Article_070.txt
+
+**Article Content Preview:**
+```
+Article 70
+
+Designation of national competent authorities and single points of contact
+
+1.   Each Member State shall establish or designate as national competent authorities at least one notifying authority and at least one market surveillance authority for the purposes of this Regulation. Those nat...
+```
+
+**Fact Check Results:**
+ℹ️ No existing fact-checks found for this content
+
+---
+
+## Article_071.txt
+
+**Article Content Preview:**
+```
+Article 71 has not been carried out;
+
+(f)
+
+where applicable, no authorised representative has been appointed;
+
+(g)
+
+technical documentation is not available.
+
+2.   Where the non-compliance referred to in paragraph 1 persists, the market surveillance authority of the Member State concerned shall take...
+```
+
+**Fact Check Results:**
+ℹ️ No existing fact-checks found for this content
+
+---
+
+## Article_072.txt
+
+**Article Content Preview:**
+```
+Article 72 is consistent with the technical documentation.
+
+ANNEX VII
+
+Conformity based on an assessment of the quality management system and an assessment of the technical documentation
+
+1.   Introduction
+
+Conformity based on an assessment of the quality management system and an assessment of the t...
+```
+
+**Fact Check Results:**
+ℹ️ No existing fact-checks found for this content
+
+---
+
+## Article_073.txt
+
+**Article Content Preview:**
+```
+Article 73
+
+Reporting of serious incidents
+
+1.   Providers of high-risk AI systems placed on the Union market shall report any serious incident to the market surveillance authorities of the Member States where that incident occurred.
+
+2.   The report referred to in paragraph 1 shall be made immediat...
+```
+
+**Fact Check Results:**
+ℹ️ No existing fact-checks found for this content
+
+---
+
+## Article_074.txt
+
+**Article Content Preview:**
+```
+Article 74(8) and (9), as applicable, can, upon request, immediately access the documentation or obtain a copy thereof. Only staff of the market surveillance authority holding the appropriate level of security clearance shall be allowed to access that documentation or any copy thereof.
+
+4.   Paragra...
+```
+
+**Fact Check Results:**
+ℹ️ No existing fact-checks found for this content
+
+---
+
+## Article_075.txt
+
+**Article Content Preview:**
+```
+Article 75(3), market surveillance authorities may request the Commission to exercise the powers laid down in this Section, where that is necessary and proportionate to assist with the fulfilment of their tasks under this Regulation....
+```
+
+**Fact Check Results:**
+ℹ️ No existing fact-checks found for this content
+
+---
+
+## Article_076.txt
+
+**Article Content Preview:**
+```
+Article 76
+
+Supervision of testing in real world conditions by market surveillance authorities
+
+1.   Market surveillance authorities shall have competences and powers to ensure that testing in real world conditions is in accordance with this Regulation.
+
+2.   Where testing in real world conditions i...
+```
+
+**Fact Check Results:**
+ℹ️ No existing fact-checks found for this content
+
+---
+
+## Article_077.txt
+
+**Article Content Preview:**
+```
+Article 77(1), finds that the AI system does not comply with the requirements and obligations laid down in this Regulation, it shall without undue delay require the relevant operator to take all appropriate corrective actions to bring the AI system into compliance, to withdraw the AI system from the...
+```
+
+**Fact Check Results:**
+ℹ️ No existing fact-checks found for this content
+
+---
+
+## Article_079.txt
+
+**Article Content Preview:**
+```
+Article 79, after consulting the relevant national public authority referred to in Article 77(1), the market surveillance authority of a Member State finds that although a high-risk AI system complies with this Regulation, it nevertheless presents a risk to the health or safety of persons, to fundam...
+```
+
+**Fact Check Results:**
+ℹ️ No existing fact-checks found for this content
+
+---
+
+## Article_080.txt
+
+**Article Content Preview:**
+```
+Article 80
+
+Procedure for dealing with AI systems classified by the provider as non-high-risk in application of Annex III
+
+1.   Where a market surveillance authority has sufficient reason to consider that an AI system classified by the provider as non-high-risk pursuant to...
+```
+
+**Fact Check Results:**
+ℹ️ No existing fact-checks found for this content
+
+---
+
+## Article_081.txt
+
+**Article Content Preview:**
+```
+Article 81
+
+Union safeguard procedure
+
+1.   Where, within three months of receipt of the notification referred to in...
+```
+
+**Fact Check Results:**
+ℹ️ No existing fact-checks found for this content
+
+---
+
+## Article_082.txt
+
+**Article Content Preview:**
+```
+Article 82
+
+Compliant AI systems which present a risk
+
+1.   Where, having performed an evaluation under...
+```
+
+**Fact Check Results:**
+ℹ️ No existing fact-checks found for this content
+
+---
+
+## Article_083.txt
+
+**Article Content Preview:**
+```
+Article 83
+
+Formal non-compliance
+
+1.   Where the market surveillance authority of a Member State makes one of the following findings, it shall require the relevant provider to put an end to the non-compliance concerned, within a period it may prescribe:
+
+(a)
+
+the CE marking has been affixed in viol...
+```
+
+**Fact Check Results:**
+ℹ️ No existing fact-checks found for this content
+
+---
+
+## Article_084.txt
+
+**Article Content Preview:**
+```
+Article 84
+
+Union AI testing support structures
+
+1.   The Commission shall designate one or more Union AI testing support structures to perform the tasks listed under...
+```
+
+**Fact Check Results:**
+ℹ️ No existing fact-checks found for this content
+
+---
+
+## Article_085.txt
+
+**Article Content Preview:**
+```
+Article 85
+
+Right to lodge a complaint with a market surveillance authority
+
+Without prejudice to other administrative or judicial remedies, any natural or legal person having grounds to consider that there has been an infringement of the provisions of this Regulation may submit complaints to the re...
+```
+
+**Fact Check Results:**
+ℹ️ No existing fact-checks found for this content
+
+---
+
+## Article_086.txt
+
+**Article Content Preview:**
+```
+Article 86
+
+Right to explanation of individual decision-making
+
+1.   Any affected person subject to a decision which is taken by the deployer on the basis of the output from a high-risk AI system listed in Annex III, with the exception of systems listed under point 2 thereof, and which produces lega...
+```
+
+**Fact Check Results:**
+ℹ️ No existing fact-checks found for this content
+
+---
+
+## Article_087.txt
+
+**Article Content Preview:**
+```
+Article 87
+
+Reporting of infringements and protection of reporting persons
+
+Directive (EU) 2019/1937 shall apply to the reporting of infringements of this Regulation and the protection of persons reporting such infringements.
+
+SECTION 5
+
+Supervision, investigation, enforcement and monitoring in resp...
+```
+
+**Fact Check Results:**
+ℹ️ No existing fact-checks found for this content
+
+---
+
+## Article_088.txt
+
+**Article Content Preview:**
+```
+Article 88
+
+Enforcement of the obligations of providers of general-purpose AI models
+
+1.   The Commission shall have exclusive powers to supervise and enforce Chapter V, taking into account the procedural guarantees under...
+```
+
+**Fact Check Results:**
+ℹ️ No existing fact-checks found for this content
+
+---
+
+## Article_089.txt
+
+**Article Content Preview:**
+```
+Article 89
+
+Monitoring actions
+
+1.   For the purpose of carrying out the tasks assigned to it under this Section, the AI Office may take the necessary actions to monitor the effective implementation and compliance with this Regulation by providers of general-purpose AI models, including their adhere...
+```
+
+**Fact Check Results:**
+ℹ️ No existing fact-checks found for this content
+
+---
+
+## Article_090.txt
+
+**Article Content Preview:**
+```
+Article 90(1), point (a).
+
+2.   The Commission may decide to appoint independent experts to carry out evaluations on its behalf, including from the scientific panel established pursuant to...
+```
+
+**Fact Check Results:**
+ℹ️ No existing fact-checks found for this content
+
+---
+
+## Article_091.txt
+
+**Article Content Preview:**
+```
+Article 91, or supplied incorrect, incomplete or misleading information;
+
+(c)
+
+failed to comply with a measure requested under...
+```
+
+**Fact Check Results:**
+ℹ️ No existing fact-checks found for this content
+
+---
+
+## Article_092.txt
+
+**Article Content Preview:**
+```
+Article 92.
+
+In fixing the amount of the fine or periodic penalty payment, regard shall be had to the nature, gravity and duration of the infringement, taking due account of the principles of proportionality and appropriateness. The Commission shall also into account commitments made in accordance w...
+```
+
+**Fact Check Results:**
+ℹ️ No existing fact-checks found for this content
+
+---
+
+## Article_093.txt
+
+**Article Content Preview:**
+```
+Article 93(3) or made in relevant codes of practice in accordance with Article 56.
+
+2.   Before adopting the decision pursuant to paragraph 1, the Commission shall communicate its preliminary findings to the provider of the general-purpose AI model and give it an opportunity to be heard.
+
+3.   Fines...
+```
+
+**Fact Check Results:**
+ℹ️ No existing fact-checks found for this content
+
+---
+
+## Article_095.txt
+
+**Article Content Preview:**
+```
+Article 95
+
+Codes of conduct for voluntary application of specific requirements
+
+1.   The AI Office and the Member States shall encourage and facilitate the drawing up of codes of conduct, including related governance mechanisms, intended to foster the voluntary application to AI systems, other than...
+```
+
+**Fact Check Results:**
+ℹ️ No existing fact-checks found for this content
+
+---
+
+## Article_096.txt
+
+**Article Content Preview:**
+```
+Article 96. The penalties provided for shall be effective, proportionate and dissuasive. They shall take into account the interests of SMEs, including start-ups, and their economic viability.
+
+2.   The Member States shall, without delay and at the latest by the date of entry into application, notify...
+```
+
+**Fact Check Results:**
+ℹ️ No existing fact-checks found for this content
+
+---
+
+## Article_097.txt
+
+**Article Content Preview:**
+```
+Article 97
+
+Exercise of the delegation
+
+1.   The power to adopt delegated acts is conferred on the Commission subject to the conditions laid down in this Article.
+
+2.   The power to adopt delegated acts referred to in...
+```
+
+**Fact Check Results:**
+ℹ️ No existing fact-checks found for this content
+
+---
+
+## Article_099.txt
+
+**Article Content Preview:**
+```
+Article 99(1), applied by Member States for infringements of this Regulation;
+
+(c)
+
+adopted harmonised standards and common specifications developed to support this Regulation;
+
+(d)
+
+the number of undertakings that enter the market after the entry into application of this Regulation, and how many of...
+```
+
+**Fact Check Results:**
+ℹ️ No existing fact-checks found for this content
+
+---
+
+## Article_100.txt
+
+**Article Content Preview:**
+```
+Article 100
+
+Administrative fines on Union institutions, bodies, offices and agencies
+
+1.   The European Data Protection Supervisor may impose administrative fines on Union institutions, bodies, offices and agencies falling within the scope of this Regulation. When deciding whether to impose an admi...
+```
+
+**Fact Check Results:**
+ℹ️ No existing fact-checks found for this content
+
+---
+
+## Article_101.txt
+
+**Article Content Preview:**
+```
+Article 101
+
+Fines for providers of general-purpose AI models
+
+1.   The Commission may impose on providers of general-purpose AI models fines not exceeding 3 % of their annual total worldwide turnover in the preceding financial year or EUR 15 000 000, whichever is higher., when the Commission finds ...
+```
+
+**Fact Check Results:**
+ℹ️ No existing fact-checks found for this content
+
+---
+
+## Article_108.txt
+
+**Article Content Preview:**
+```
+Article 108
+
+Amendments to Regulation (EU) 2018/1139
+
+Regulation (EU) 2018/1139 is amended as follows:
+
+(1)
+
+in...
+```
+
+**Fact Check Results:**
+ℹ️ No existing fact-checks found for this content
+
+---
+
+## Article_110.txt
+
+**Article Content Preview:**
+```
+Article 110
+
+Amendment to Directive (EU) 2020/1828
+
+In Annex I to Directive (EU) 2020/1828 of the European Parliament and of the Council 
+(
+58
+)
+, the following point is added:
+
+‘(68)
+
+Regulation (EU) 2024/1689 of the European Parliament and of the Council of 13 June 2024 laying down harmonised rule...
+```
+
+**Fact Check Results:**
+ℹ️ No existing fact-checks found for this content
+
+---
+
+## Article_111.txt
+
+**Article Content Preview:**
+```
+Article 111
+
+AI systems already placed on the market or put into service and general-purpose AI models already placed on the marked
+
+1.   Without prejudice to the application of...
+```
+
+**Fact Check Results:**
+ℹ️ No existing fact-checks found for this content
+
+---
+
+## Article_112.txt
+
+**Article Content Preview:**
+```
+Article 112
+
+Evaluation and review
+
+1.   The Commission shall assess the need for amendment of the list set out in Annex III and of the list of prohibited AI practices laid down in...
+```
+
+**Fact Check Results:**
+ℹ️ No existing fact-checks found for this content
+
+---
+
+## Article_113.txt
+
+**Article Content Preview:**
+```
+Article 113
+
+Entry into force and application
+
+This Regulation shall enter into force on the twentieth day following that of its publication in the 
+Official Journal of the European Union
+.
+
+It shall apply from 2 August 2026.
+
+However:
+
+(a)
+
+Chapters I and II shall apply from 2 February 2025;
+
+(b)
+
+...
+```
+
+**Fact Check Results:**
+ℹ️ No existing fact-checks found for this content
+
+---
+
+## Article_114.txt
+
+**Article Content Preview:**
+```
+Article 114 of the Treaty on the Functioning of the European Union (TFEU). To the extent that this Regulation contains specific rules on the protection of individuals with regard to the processing of personal data concerning restrictions of the use of AI systems for remote biometric identification f...
+```
+
+**Fact Check Results:**
+ℹ️ No existing fact-checks found for this content
+
+---
+
