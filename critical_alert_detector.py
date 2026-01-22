@@ -1,6 +1,7 @@
 """
 Critical Alert Detector for EU AI Act Compliance
 Grafana-based alerting system for AI-specific critical events
+REFACTORED: Now uses unified metrics from eu_ai_act_metrics.py
 
 Monitors:
 - Safety incidents (Article 73)
@@ -27,32 +28,14 @@ from rich.panel import Panel
 from rich.table import Table
 from rich import print as rprint
 
+# Import unified metrics definitions
+from eu_ai_act_metrics import (
+    RiskCategory, AlertSeverity, EUAIActRiskMapping,
+    EU_AI_ACT_RISK_MAPPINGS, MetricNames,
+    get_risk_mapping, get_reporting_deadline, is_critical_risk
+)
+
 console = Console()
-
-
-class AlertSeverity(str, Enum):
-    CRITICAL = "critical"
-    HIGH = "high"
-    MEDIUM = "medium"
-    LOW = "low"
-
-
-class RiskCategory(str, Enum):
-    SAFETY_001 = "safety-001"
-    SAFETY_002 = "safety-002"
-    SAFETY_003 = "safety-003"
-    SAFETY_005 = "safety-005"
-
-
-@dataclass
-class EUAIActRiskMapping:
-    risk_id: str
-    article_reference: str
-    incident_type: str
-    reporting_deadline_days: int
-    severity: AlertSeverity
-    description: str
-    threshold_config: Dict[str, Any]
 
 
 @dataclass
@@ -72,62 +55,8 @@ class AlertRule:
 class CriticalAlertDetector:
     """
     Grafana-based critical alert detector for EU AI Act compliance
+    REFACTORED: Uses unified EU_AI_ACT_RISK_MAPPINGS from eu_ai_act_metrics.py
     """
-    
-    EU_AI_ACT_RISK_MAPPINGS = {
-        RiskCategory.SAFETY_001: EUAIActRiskMapping(
-            risk_id="safety-001",
-            article_reference="Article 3(49)(a), Article 73(4)",
-            incident_type="Death or serious harm to health",
-            reporting_deadline_days=10,
-            severity=AlertSeverity.CRITICAL,
-            description="Death of a person or serious harm to a person's health",
-            threshold_config={
-                "health_impact_score": 9.0,
-                "fatality_detected": True,
-                "immediate_notification": True
-            }
-        ),
-        RiskCategory.SAFETY_002: EUAIActRiskMapping(
-            risk_id="safety-002",
-            article_reference="Article 3(49)(b), Article 73(3)",
-            incident_type="Critical infrastructure disruption",
-            reporting_deadline_days=2,
-            severity=AlertSeverity.CRITICAL,
-            description="Serious and irreversible disruption of critical infrastructure",
-            threshold_config={
-                "infrastructure_impact_score": 8.5,
-                "disruption_duration_minutes": 15,
-                "affected_services": 1
-            }
-        ),
-        RiskCategory.SAFETY_003: EUAIActRiskMapping(
-            risk_id="safety-003",
-            article_reference="Article 3(49)(c), Article 73(2)",
-            incident_type="Fundamental rights violation",
-            reporting_deadline_days=15,
-            severity=AlertSeverity.HIGH,
-            description="Infringement of Union law protecting fundamental rights",
-            threshold_config={
-                "rights_violation_score": 7.0,
-                "affected_individuals": 1,
-                "bias_detection_threshold": 0.15
-            }
-        ),
-        RiskCategory.SAFETY_005: EUAIActRiskMapping(
-            risk_id="safety-005",
-            article_reference="Article 3(49)(d), Article 73(2)",
-            incident_type="Property/environmental harm",
-            reporting_deadline_days=15,
-            severity=AlertSeverity.HIGH,
-            description="Serious harm to property or the environment",
-            threshold_config={
-                "damage_value_eur": 50000,
-                "environmental_impact_score": 7.5,
-                "affected_area_km2": 0.1
-            }
-        )
-    }
     
     def __init__(self, grafana_url: str = "http://localhost:3000", api_key: Optional[str] = None):
         self.grafana_url = grafana_url.rstrip('/')
@@ -141,7 +70,7 @@ class CriticalAlertDetector:
         """Generate Grafana alert rules for all EU AI Act risk categories"""
         alert_rules = []
         
-        for risk_cat, risk_mapping in self.EU_AI_ACT_RISK_MAPPINGS.items():
+        for risk_cat, risk_mapping in EU_AI_ACT_RISK_MAPPINGS.items():
             rule = self._create_alert_rule_for_risk(risk_cat, risk_mapping)
             alert_rules.append(rule)
         
@@ -350,7 +279,7 @@ class CriticalAlertDetector:
         y_pos = 0
         
         for rule in alert_rules:
-            risk_mapping = self.EU_AI_ACT_RISK_MAPPINGS[rule.risk_category]
+            risk_mapping = EU_AI_ACT_RISK_MAPPINGS[rule.risk_category]
             
             panels.append({
                 "id": panel_id,
@@ -423,7 +352,8 @@ class CriticalAlertDetector:
         """Display alert configuration in terminal"""
         console.print(Panel.fit(
             "[bold cyan]EU AI Act Critical Alert Detector[/bold cyan]\n"
-            "[dim]Grafana-based alerting for AI safety compliance[/dim]",
+            "[dim]Grafana-based alerting for AI safety compliance[/dim]\n"
+            "[green]Using unified metrics from eu_ai_act_metrics.py[/green]",
             border_style="cyan"
         ))
         
@@ -434,7 +364,7 @@ class CriticalAlertDetector:
         table.add_column("Deadline", style="green", width=10)
         table.add_column("Article", style="blue", width=20)
         
-        for risk_cat, mapping in self.EU_AI_ACT_RISK_MAPPINGS.items():
+        for risk_cat, mapping in EU_AI_ACT_RISK_MAPPINGS.items():
             table.add_row(
                 mapping.risk_id,
                 mapping.incident_type,

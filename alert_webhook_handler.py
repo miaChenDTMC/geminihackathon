@@ -1,6 +1,7 @@
 """
 Webhook handler for Grafana alerts
-Integrates with incident management system for EU AI Act compliance
+Integrates with EU AI Act Article 73 incident management system
+REFACTORED: Now uses unified incident_management.py for compliance
 """
 
 from flask import Flask, request, jsonify
@@ -16,7 +17,9 @@ app = Flask(__name__)
 
 class AlertWebhookHandler:
     """
-    Handles incoming Grafana alerts and creates incidents
+    Handles incoming Grafana alerts and creates EU AI Act compliant incidents
+    
+    Integration: Uses incident_management.py for Article 73 compliance
     """
     
     def __init__(self):
@@ -24,10 +27,11 @@ class AlertWebhookHandler:
         self._load_incident_manager()
     
     def _load_incident_manager(self):
-        """Load incident manager if available"""
+        """Load EU AI Act incident manager"""
         try:
             from incident_management import IncidentManager
-            self.incident_manager = IncidentManager()
+            self.incident_manager = IncidentManager(use_ai=True)
+            console.print("[green]✓ EU AI Act Article 73 incident management loaded[/green]")
         except ImportError:
             console.print("[yellow]Warning: incident_management module not available[/yellow]")
     
@@ -42,7 +46,7 @@ class AlertWebhookHandler:
         return {'status': 'ignored', 'reason': 'unknown alert status'}
     
     def _handle_firing_alert(self, alert_data: Dict[str, Any]) -> Dict[str, Any]:
-        """Handle a firing alert"""
+        """Handle a firing alert - creates EU AI Act compliant incidents"""
         
         alerts = alert_data.get('alerts', [])
         results = []
@@ -60,34 +64,54 @@ class AlertWebhookHandler:
             console.print(f"Description: {annotations.get('description', 'N/A')}")
             
             if self.incident_manager and risk_id.startswith('safety-'):
-                incident_data = self._create_incident_from_alert(alert)
-                
+                # Create EU AI Act Article 73 compliant incident
                 try:
-                    from incident_management import Incident
-                    incident = Incident(**incident_data)
-                    self.incident_manager.save_incident(incident)
-                    
-                    if self.incident_manager.client:
-                        severity, incident_type, days = self.incident_manager.classify_severity(incident)
-                        
-                        results.append({
-                            'status': 'incident_created',
-                            'incident_id': incident.incident_id,
+                    incident = self.incident_manager.create_incident(
+                        title=annotations.get('summary', labels.get('alertname', 'Grafana Alert')),
+                        description=f"{annotations.get('description', '')}\n\n"
+                                   f"Alert Details:\n"
+                                   f"Risk ID: {risk_id}\n"
+                                   f"Severity: {severity}\n"
+                                   f"Article Reference: {annotations.get('article_reference', 'N/A')}\n"
+                                   f"Alert Fingerprint: {alert.get('fingerprint', 'N/A')}",
+                        ai_system_id=labels.get('ai_system_id', 'GRAFANA-MONITORED-SYSTEM'),
+                        ai_system_name=labels.get('ai_system', 'AI System'),
+                        member_state=labels.get('member_state', 'EU'),
+                        detected_by='grafana_alert',
+                        metadata={
+                            'grafana_alert': True,
+                            'alert_fingerprint': alert.get('fingerprint', ''),
                             'risk_id': risk_id,
-                            'reporting_deadline_days': days,
-                            'severity': severity.value if severity else 'unknown'
-                        })
-                    else:
-                        results.append({
-                            'status': 'incident_created_manual_classification_required',
-                            'incident_id': incident.incident_id,
-                            'risk_id': risk_id
-                        })
+                            'severity_label': severity,
+                            'article_reference': annotations.get('article_reference', ''),
+                            'reporting_deadline': annotations.get('reporting_deadline', ''),
+                            'alert_labels': labels,
+                            'alert_annotations': annotations
+                        }
+                    )
                     
-                    console.print(f"[green]✓ Incident created: {incident.incident_id}[/green]")
+                    # AI classification happens automatically in create_incident if AI is available
+                    result = {
+                        'status': 'eu_ai_act_incident_created',
+                        'incident_id': incident.id,
+                        'risk_id': risk_id,
+                        'is_serious': incident.is_serious,
+                        'severity': incident.severity.value if incident.severity else 'unclassified',
+                        'article_73_compliant': True
+                    }
+                    
+                    if incident.is_serious:
+                        result['reporting_deadline_days'] = incident.reporting_timeline_days
+                        result['incident_type'] = incident.incident_type.value if incident.incident_type else None
+                        console.print(f"[yellow]⚠️  SERIOUS INCIDENT - {incident.reporting_timeline_days} days reporting deadline[/yellow]")
+                    
+                    results.append(result)
+                    console.print(f"[green]✓ EU AI Act incident created: {incident.id}[/green]")
                     
                 except Exception as e:
                     console.print(f"[red]Error creating incident: {e}[/red]")
+                    import traceback
+                    console.print(f"[dim]{traceback.format_exc()}[/dim]")
                     results.append({
                         'status': 'error',
                         'error': str(e),
@@ -123,23 +147,6 @@ class AlertWebhookHandler:
             'alerts_resolved': len(alerts)
         }
     
-    def _create_incident_from_alert(self, alert: Dict[str, Any]) -> Dict[str, Any]:
-        """Create incident data structure from alert"""
-        
-        labels = alert.get('labels', {})
-        annotations = alert.get('annotations', {})
-        
-        return {
-            'title': annotations.get('summary', labels.get('alertname', 'Unknown Alert')),
-            'description': f"{annotations.get('description', '')}\n\nAlert Details:\n{json.dumps(alert, indent=2)}",
-            'ai_system_name': labels.get('ai_system', 'Unknown System'),
-            'detected_at': datetime.now().isoformat(),
-            'member_state': 'EU',
-            'source': 'grafana_alert',
-            'alert_uid': alert.get('fingerprint', ''),
-            'risk_category': labels.get('risk_id', 'unknown'),
-            'severity_level': labels.get('severity', 'medium')
-        }
 
 
 webhook_handler = AlertWebhookHandler()

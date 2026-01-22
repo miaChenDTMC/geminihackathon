@@ -1,6 +1,7 @@
 """
 Prometheus Metrics Exporter for EU AI Act Compliance Monitoring
 Exposes AI system metrics for Grafana alerting
+REFACTORED: Uses unified metrics definitions from eu_ai_act_metrics.py
 """
 
 from prometheus_client import start_http_server, Gauge, Counter, Histogram, Info
@@ -9,6 +10,12 @@ import random
 from typing import Dict, Optional
 import json
 from datetime import datetime
+
+# Import unified metrics definitions
+from eu_ai_act_metrics import (
+    RiskCategory, EU_AI_ACT_RISK_MAPPINGS, MetricNames,
+    get_threshold_config
+)
 
 class AISystemMetricsExporter:
     """
