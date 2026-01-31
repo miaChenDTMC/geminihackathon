@@ -18,6 +18,7 @@ from pathlib import Path
 import json
 import os
 import hashlib
+import uuid
 
 
 # ============================================================
@@ -637,7 +638,10 @@ Provide a brief, clear explanation (2-3 sentences) that helps the user understan
     # Helper Methods
     # ========================================================
     def _generate_id(self, prefix: str) -> str:
-        return f"{prefix}-{datetime.now().strftime('%Y%m%d%H%M%S')}"
+        """Generate unique ID with prefix + timestamp + random suffix"""
+        timestamp = datetime.now().strftime('%Y%m%d%H%M%S')
+        random_suffix = uuid.uuid4().hex[:6]
+        return f"{prefix}-{timestamp}-{random_suffix}"
 
     def _find_consent(self, consent_id: str) -> Optional[ConsentRecord]:
         for c in self.consent_records:
