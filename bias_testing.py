@@ -17,6 +17,7 @@ from datetime import datetime
 from pathlib import Path
 import json
 import os
+import uuid
 
 # ============================================================
 # Protected Attributes (EU Charter Art 21)
@@ -194,7 +195,7 @@ class BiasTestingSystem:
 
         # Create result
         result = BiasTestResult(
-            test_id=f"BT-{datetime.now().strftime('%Y%m%d%H%M%S')}",
+            test_id=f"BT-{datetime.now().strftime('%Y%m%d%H%M%S')}-{uuid.uuid4().hex[:6]}",
             timestamp=datetime.now(),
             ai_system_id=self.ai_system_id,
             protected_attribute=attribute_type,
