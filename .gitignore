@@ -68,3 +68,31 @@ packages/cli/src/__tests__/*/__ snapshots__/
 
 # Git backup folder
 .git.backup/
+
+# Duplicate folders (already in test-agents/)
+AI Act skills packages/autofill/
+
+# Downloaded external tools and packages (large files)
+AI Act skills packages/Risks packages/
+
+# Test results and generated data
+AI Act skills packages/bias_test_results/
+AI Act skills packages/incidents/
+AI Act skills packages/change_management/
+
+# Empty or corrupted files
+Output/RED_TEAM_REPORT.md
+Output/incident_management.md
+Utilities/batch_fact_checker.py
+AI Act skills packages/run_guardrails_test.py
+AI Act skills packages/security_input.py
+
+# Folders containing only empty files or with git indexing issues
+AI Act skills packages/Cybersecurity/
+AI Act skills packages/Humain oversight/
+AI Act skills packages/Incident management/
+AI Act skills packages/critical_alert/
+AI Act skills packages/risk_analysis_accessibility/
+AI Act skills packages/pmm_system/
+AI Act skills packages/skills/
+Utilities/
