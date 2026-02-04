@@ -1,3 +1,0 @@
-model: "gemini-3-flash-preview"
-endpoint: "https://generativelanguage.googleapis.com/v1beta/openai/"
-api_key_env: "GEMINI_API_KEY"
